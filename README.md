@@ -106,7 +106,7 @@ import (
 )
 
 const (
-  configFile = "rabbit_conf.json"
+        configFile = "rabbit_conf.json"
 	consumerName  = "test_consumer"
 	publisherName = "test_publisher"
 )
