@@ -214,7 +214,7 @@ Press Ctrl + C to initialize a gracefull shutdown of this script.
 As a result you should get the following output in your console (well, not exactly, the timestamps will be different):
 
 ```
-КABBIT : 2021/09/01 00:14:40.423481 main.go:33: main: initializing broker
+RABBIT : 2021/09/01 00:14:40.423481 main.go:33: main: initializing broker
 RABBIT : 2021/09/01 00:14:40.455483 main.go:49: main: started publishing and consuming
 testConsumer received delivery:  {"message": "Hello World!"}
 RABBIT : 2021/09/01 00:14:42.142001 main.go:61: main: start broker shutdown
