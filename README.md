@@ -21,7 +21,7 @@ What's still lacking for an initial release:
 
 Suppose we have the following config file called "rabbit_config.json" residing in the same directory as our 'main.go' entrypoint:
 
-```
+```json
 {
   "dsn": "amqp://guest:guest@localhost:5672/",
   "connection": {
@@ -86,7 +86,7 @@ Suppose we have the following config file called "rabbit_config.json" residing i
 Then an example program using the config source above could look something like this.
 Publishes and receives a json serialized message, prints received message to stdout (main.go):
 
-```
+```go
 package main
 
 import (
